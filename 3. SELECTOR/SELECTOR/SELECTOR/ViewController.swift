@@ -47,14 +47,21 @@ class ViewController: UIViewController {
         //        如果方法名字在方法所在域内是唯一的话，我们可以简单地只是用方法的名字来作为 #selector 的内容。相比于前面带有冒号的完整的形式来说，这么写起来会方便一些：
         let anotherMethod2 = #selector(callMeWithParam)
         
-        
+        let an = #selector(callBack111)
         //如果在同一个作用域中存在同样名字的两个方法，即使它们的函数签名不相同，Swift 编译器也不允许编译通过：我们可以通过将方法进行强制转换来使用：
         let method1 = #selector(commonFunc as ()->())
         let method2 = #selector(commonFunc as Int->Int)
         
+        _ = #selector(jjjj)
     }
     
+    func jjjj() {
+        
+    }
     
+    func callBack111() {
+        
+    }
     
     func callMe() {
         //...

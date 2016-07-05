@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         print(b)
         
     
-        // 利用元组同时返回多个值，从而解决了在Objective-C中返回值只能有一个而造成的一些问题
+     //    利用元组同时返回多个值，从而解决了在Objective-C中返回值只能有一个而造成的一些问题
 //        var areaOne: CGRect = CGRectMake(0, 0, 0, 0)
 //        var areaTwo: CGRect = CGRectMake(0, 0, 0, 0)
 //        
@@ -47,6 +47,7 @@ class ViewController: UIViewController {
         var (areaOne, areaTwo) = CGRectDivide(self.view.bounds, amount: self.view.bounds.size.width * 0.3, edge: .MinXEdge)
         let viewOne = UIView()
         viewOne.frame = areaOne
+        
         viewOne.backgroundColor = UIColor.redColor()
         self.view.addSubview(viewOne)
         

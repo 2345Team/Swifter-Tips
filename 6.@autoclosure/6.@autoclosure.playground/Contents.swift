@@ -6,7 +6,7 @@ import UIKit
 
 func logIfTrue(predicate: () -> Bool) {
     if predicate() {
-        print("True")
+        print("呃呃呃")
     }
 }
 
@@ -18,7 +18,7 @@ logIfTrue{2 > 1}  //尾随闭包Trailing closure
 
 func logIfTrue1(@autoclosure predicate: () -> Bool) {
     if predicate() {
-        print("True")
+        print("D大调")
     }
 }
 

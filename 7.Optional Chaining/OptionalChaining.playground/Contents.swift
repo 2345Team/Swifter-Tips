@@ -23,6 +23,9 @@ class Child {
 let xiaoming = Child()
 let toyName = xiaoming.pet?.toy?.name
 
+//xiaoming.pet = Pet()
+//xiaoming.pet?.toy = Toy(name: "娃娃")
+//let toyName2 = xiaoming.pet?.toy?.name
 if let toyName = xiaoming.pet?.toy?.name {
     print(" 太好了，小明既有宠物，而且宠物还正好有个玩具")
 }else{

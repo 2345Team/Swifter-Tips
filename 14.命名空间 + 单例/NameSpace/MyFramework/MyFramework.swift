@@ -9,7 +9,8 @@
 import UIKit
 
 class MyFramework: NSObject {
-    public class MyApp {
+    
+     class MyClass {
         public class func hello() {
             print("hello from framework")
         }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class MyApp: NSObject {
+class MyClass {
 
    
       public  class func hello() {

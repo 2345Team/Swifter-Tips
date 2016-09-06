@@ -13,8 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print(MyApp.hello())
-        print(MyFramework.MyApp.hello())
+        print(MyClass.hello())
+        print(MyFramework.MyClass.hello())
         
         
        print(MyClassContainer1.MyClass.hello())

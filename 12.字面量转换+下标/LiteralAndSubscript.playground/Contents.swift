@@ -110,4 +110,12 @@ extension Array {
     }
 }
 
+var arrTest = [1,2,3,4,5]
+arrTest[[0,2,3]]            //[1,3,4]
+arrTest[[0,2,3]] = [-1,-3,-4]
+arrTest                     //[-1,2,-3,-4,5]
 
+
+let http404Error = (404, "Not Found")
+http404Error.0
+http404Error.1

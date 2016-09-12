@@ -85,8 +85,8 @@ dic["cat"] = "miao" // dic = ["cat":"miao", "goat":"mie"]
 //Swift 是允许我们自定义下标
 //Array
 /*
- subscript (index: Int) -> T  //单个 Int 类型的序号
- subscript (subRange: Range<Int>) -> Slice<T> //表明范围的 Range<Int>
+ subscript (index: Int) -> T  单个 Int 类型的序号
+ subscript (subRange: Range<Int>) -> Slice<T> 表明范围的 Range<Int>
  */
 
 
